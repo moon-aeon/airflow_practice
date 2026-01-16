@@ -16,7 +16,7 @@ with DAG(
     tags = ['20250725'],
     default_args = default_args,
     catchup=False
-):
+) :
     
     task1 = EmptyOperator(task_id="task1")
     task2 = EmptyOperator(task_id="task2")
